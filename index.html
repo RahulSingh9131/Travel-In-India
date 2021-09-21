@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahul | Travel | Site</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <div id="menu-bars" class="fas fa-bars"></div>
+        <a href="#" class="logo"> <span>B</span>harat <span>Y</span>aatra</a>
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#book">book</a>
+            <a href="#packages">packages</a>
+            <a href="#services">services</a>
+            <a href="#gallery">gallery</a>
+            <a href="#reviews">reviews</a>
+            <a href="#contact">contact</a>
+        </nav>
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar"  placeholder="search here..."/>
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+    </header>
+    <!--log in -->
+    <div class="login-form-container">
+        <i class="fas fa-times" id="form-close"></i>
+        <form action="">
+            <h3>login</h3>
+            <input type="email" class="box" placeholder="enter your email.."/>
+            <input type="password" class="box" placeholder="enter password here.."/>
+            <input type="submit" class="btn" value="login now"/>
+            <input type="checkbox" id="remember-me"/>
+            <label for="remember-me">remember me</label>
+            <p>forgot password?<a href="#">click here</a></p>
+            <p>dont have an account? <a href="#">register here</a></p>
+        </form>
+    </div>
+    <!--Section for home-->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Wanna Travel In India?</h3>
+            <p>Here are some nice & affordable places in India. Have a look.</p>
+            <a href="#" class="btn">Discover More</a>
+        </div>
+        <div class="controls">
+            <span class="img-btn active" data-src="images src/home1.jpg"></span>
+            <span class="img-btn" data-src="images src/home2.jpg"></span>
+            <span class="img-btn" data-src="images src/home3.jpg"></span>
+            <span class="img-btn" data-src="images src/home4.jpg"></span>
+            <span class="img-btn" data-src="images src/home5.jpg"></span>
+        </div>
+        <div class="image-container">
+            <img src="images src/home1.jpg" id="image-slider" alt="">
+        </div>
+    </section>
+    <!-- section for Book-->
+    <section class="book" id="book">
+        <div class="heading">
+            <span>b</span>
+            <span>0</span>
+            <span>0</span>
+            <span>k</span>
+            <span class="space"></span>
+            <span>n</span>
+            <span>o</span>
+            <span>w</span>
+        </div>
+        <div class="row">
+            <div class="image">
+                <img src="images src/aeroplane.svg" alt="">
+            </div>
+            <form action="">
+                <div class="inputbox">
+                    <h3>Where To?</h3>
+                    <input type="text" placeholder="enter the place">
+                </div>
+                <div class="inputbox">
+                    <h3>How many?</h3>
+                    <input type="number" placeholder="number of guests">
+                </div>
+                <div class="inputbox">
+                    <h3>Arrival</h3>
+                    <input type="date">
+                </div>
+                <div class="inputbox">
+                    <h3>Departure</h3>
+                    <input type="date">
+                </div>
+                <input type="submit" class="btn" value="submit now">
+            </form>
+        </div>
+    </section>
+    <!-- packages section-->
+    <section class="packages" id="packages">
+        <div class="heading">
+            <span>p</span>
+            <span>a</span>
+            <span>c</span>
+            <span>k</span>
+            <span>a</span>
+            <span>g</span>
+            <span>e</span>
+            <span>s</span>
+        </div>
+        <div class="box-container">
+            <div class="box">
+                <img src="images src/mumbai.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>mumbai</h3>
+                    <p>mumbai , the financial capital for india is also home to many bollywood personalities.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $100 <span>$150</span></div>
+                    <a href="" class="btn">Book Now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images src/agra.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>agra</h3>
+                    <p>Agra is best known for the Taj Mahal (17th century), designated a UNESCO World Heritage site in 1983.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $70 <span>$100</span></div>
+                    <a href="" class="btn">Book Now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images src/patna.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>patna</h3>
+                    <p>patna, the capital of bihar is known for some pilgrimage sites and temples.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $65 <span>$100</span></div>
+                    <a href="" class="btn">Book Now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images src/amritsar.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>amritsar</h3>
+                    <p>amitsar, centre of Sikhism , is well known for holiest gurudwara known as golden temple.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $70 <span>$90</span></div>
+                    <a href="" class="btn">Book Now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images src/jaipur.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>jaipur</h3>
+                    <p>Jaipur is famous as Pink City of India , Jaipur is famous for Rajasthani traditional Jewelry</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $80 <span>$100</span></div>
+                    <a href="" class="btn">Book Now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images src/delhi.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>delhi</h3>
+                    <p>delhi, the capital of india is a famous city around the world for travelling sites.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $100 <span>$130</span></div>
+                    <a href="" class="btn">Book Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- services section-->
+    <section class="services" id="services">
+        <h1 class="heading">
+            <span>s</span>
+            <span>e</span>
+            <span>r</span>
+            <span>v</span>
+            <span>i</span>
+            <span>c</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-hotel"></i>
+                <h3>affordable hotels</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio repellendus perspiciatis eveniet consequatur temporibus vero</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-utensils"></i>
+                <h3>food and drinks</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio repellendus perspiciatis eveniet consequatur temporibus vero</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-bullhorn"></i>
+                <h3>safety guide</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio repellendus perspiciatis eveniet consequatur temporibus vero</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-globe-asia"></i>
+                <h3>around the world</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio repellendus perspiciatis eveniet consequatur temporibus vero</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-plane"></i>
+                <h3>fastest travelling</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio repellendus perspiciatis eveniet consequatur temporibus vero</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-hiking"></i>
+                <h3>adventures</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio repellendus perspiciatis eveniet consequatur temporibus vero</p>
+            </div>
+        </div>
+    </section>
+    <!-- gallery section -->
+    <section class="gallery" id="gallery">
+        <h1 class="heading">
+            <span>g</span>
+            <span>a</span>
+            <span>l</span>
+            <span>l</span>
+            <span>e</span>
+            <span>r</span>
+            <span>y</span>
+        </h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="images src/home1.jpg" alt="">
+                <div class="content">
+                    <h3>travelling places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod similique eligendi</p>
+                    <a href="#" class="btn">see More</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images src/home2.jpg" alt="">
+                <div class="content">
+                    <h3>travelling places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod similique eligendi</p>
+                    <a href="#" class="btn">see More</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images src/home3.jpg" alt="">
+                <div class="content">
+                    <h3>travelling places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod similique eligendi</p>
+                    <a href="#" class="btn">see More</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images src/home4.jpg" alt="">
+                <div class="content">
+                    <h3>travelling places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod similique eligendi</p>
+                    <a href="#" class="btn">see More</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images src/home5.jpg" alt="">
+                <div class="content">
+                    <h3>travelling places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod similique eligendi</p>
+                    <a href="#" class="btn">see More</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images src/home6.jpg" alt="">
+                <div class="content">
+                    <h3>travelling places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod similique eligendi</p>
+                    <a href="#" class="btn">see More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- review section-->
+    <section class="reviews" id="reviews">
+        <h1 class="heading">
+            <span>r</span>
+            <span>e</span>
+            <span>v</span>
+            <span>i</span>
+            <span>e</span>
+            <span>w</span>
+            <span>s</span>
+        </h1>
+        <div class=" swiper mySwiper review-slider">
+            <div class="swiper-wrapper">
+    
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images src/review1.svg" alt="">
+                        <h3>rahul singh</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto magni rerum beatae</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images src/review2.svg" alt="">
+                        <h3>vikas kumar</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto magni rerum beatae</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images src/review3.svg" alt="">
+                        <h3>saurabh</h3>
+                        <h3></h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto magni rerum beatae</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images src/aeroplane.svg" alt="">
+                        <h3>sajal</h3>
+                        <h3></h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto magni rerum beatae</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images src/home6.jpg" alt="">
+                        <h3>yuvraj </h3>
+                        <h3></h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto magni rerum beatae</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- contact section-->
+    <section class="contact" id="contact">
+        <h1 class="heading">
+            <span>c</span>
+            <span>o</span>
+            <span>n</span>
+            <span>t</span>
+            <span>a</span>
+            <span>c</span>
+            <span>t</span>
+        </h1>
+        <div class="row">
+            <div class="image">
+                <img src="images src/contact.svg" alt="">
+            </div>
+            <form action="">
+                <div class="inputbox">
+                    <input type="text" placeholder="name">
+                    <input type="email" placeholder="email">
+                </div>
+                <div class="inputbox">
+                    <input type="number" placeholder="number">
+                    <input type="text" placeholder="subject">
+                </div>
+                <textarea placeholder="message" name="" id="" cols="30" rows="5"></textarea>
+                <input type="submit" class="btn" value="send message">
+            </form>
+        </div>
+    </section>
+    <!-- footer section-->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>about website</h3>
+                <p>This website features some affordable travelling places in india. I made this using HTML,CSS & JAVASCIPT </p>
+            </div>
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#home">Home</a>
+                <a href="#book">book</a>
+                <a href="#packages">packages</a>
+                <a href="#services">services</a>
+                <a href="#gallery">gallery</a>
+                <a href="#reviews">reviews</a>
+                <a href="#contact">contact</a>
+            </div>
+            <div class="box">
+                <h3>my social handles</h3>
+                <a href="https://github.com/RahulSingh9131">github</a>
+                <a href="https://twitter.com/singhrahul3112">twitter</a>
+                <a href="https://www.linkedin.com/in/rahul-singh-06b83917a/">linkedIn</a>
+            </div>
+        </div>
+        <h1 class="credit">© | <span>Rahul singh</span> | 2021 </h1>
+    </section>
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
